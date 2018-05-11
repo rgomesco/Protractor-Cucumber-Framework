@@ -1,0 +1,100 @@
+[
+  {
+    "description": "Navigation",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I launch",
+        "category": "Scenarios for edit and delete Contact Information in profile screen: Navigation",
+        "durationMillis": 7087,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\rgomesco\\Desktop\\Protractor\\e2e\\features\\example.feature",
+          "line": 7,
+          "column": 1
+        },
+        "progress": {
+          "step": 1,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And In \"profile\" page, I set the \"Search_Box\" text box to \"troytrd\"",
+        "category": "Scenarios for edit and delete Contact Information in profile screen: Navigation",
+        "durationMillis": 271,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\rgomesco\\Desktop\\Protractor\\e2e\\features\\example.feature",
+          "line": 8,
+          "column": 1
+        },
+        "progress": {
+          "step": 2,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And In \"profile\" page, I set the \"Search_Box\" text box to \"TD_example_search_searchTerm\"",
+        "category": "Scenarios for edit and delete Contact Information in profile screen: Navigation",
+        "durationMillis": 209,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\rgomesco\\Desktop\\Protractor\\e2e\\features\\example.feature",
+          "line": 9,
+          "column": 1
+        },
+        "progress": {
+          "step": 3,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And In \"profile\" page, I set the \"Search_Box\" text box to \"XL_Sheet1_searchTerm4\"",
+        "category": "Scenarios for edit and delete Contact Information in profile screen: Navigation",
+        "durationMillis": 241,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\rgomesco\\Desktop\\Protractor\\e2e\\features\\example.feature",
+          "line": 10,
+          "column": 1
+        },
+        "progress": {
+          "step": 4,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And In \"profile\" page, I click \"Search_Button\"",
+        "category": "Scenarios for edit and delete Contact Information in profile screen: Navigation",
+        "durationMillis": 4450,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\rgomesco\\Desktop\\Protractor\\e2e\\features\\example.feature",
+          "line": 11,
+          "column": 1
+        },
+        "progress": {
+          "step": 5,
+          "steps": 5
+        }
+      }
+    ],
+    "duration": 12258
+  }
+]
