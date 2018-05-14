@@ -14,7 +14,6 @@ module.exports = {
 
     // Function to get element from respective page object file
     getElement: function (pageName, variableName) {
-        // here we get the element ID from the page object file
         var page = require('./../pageobjects/' + pageName + '-page.js');
         return page[variableName];
     },
@@ -27,16 +26,18 @@ module.exports = {
          var field2 = fields[2];
         if (text.indexOf('TD_') > -1) {
             var field3 = fields[3];
-            // here we get the testdata from testdata file
+            // here we get the testdata from testdata file (Json format)
             var page1 = require('./../testdata/' + field1 + '_Models.js');
             return page1[field2][field3];
         } else if (text.indexOf('XL_') > -1) {
+            // here we get the testdata from excel file
             return this.getExcelData(field1, field2);
         } else {
             return text;
         }
     },
 
+    // here we get the testdata from excel file
     getExcelData: function (sheetName, keyword) {
         var workbook = new Excel.Workbook();
         return workbook.xlsx.readFile('./e2e/testdata/example_data.xlsx').then(function () {
@@ -59,9 +60,9 @@ module.exports = {
 
     elementClick: function (pageName, variableName) {
         var EC = protractor.ExpectedConditions;
-        var ele = this.getElement(pageName, variableName);
-        browser.wait(EC.elementToBeClickable(ele), 2000);
-        return ele.click();
+        var element = this.getElement(pageName, variableName);
+        browser.wait(EC.elementToBeClickable(element), 2000);
+        return element.click();
     },
 
 
@@ -72,17 +73,17 @@ module.exports = {
     setTextBox: function (pageName, variableName, text) {
         var EC = protractor.ExpectedConditions;
         // here we get the element ID from the page object file
-        var ele = this.getElement(pageName, variableName);
-        browser.wait(EC.elementToBeClickable(ele), 2000);
-        ele.click();
+        var element = this.getElement(pageName, variableName);
+        browser.wait(EC.elementToBeClickable(element), 2000);
+        element.click();
         var data = this.getTestdata(text);
         browser.driver.switchTo().activeElement().clear();
         return browser.driver.switchTo().activeElement().sendKeys(data);
     },
 
     checkTextBox: function (pageName, variableName, text) {
-        var ele = this.getElement(pageName, variableName);
-        ele.click();
+        var element = this.getElement(pageName, variableName);
+        element.click();
         var data = this.getTestdata(text);
         return expect(browser.driver.switchTo().activeElement().getAttribute('value')).to.eventually.equal(data);
     },
@@ -95,17 +96,17 @@ module.exports = {
         // we need to provide sleep because some dropdown are fetched from backend and take time to load.
         // browser.sleep(2000);
         var EC = protractor.ExpectedConditions;
-        var ele = this.getElement(pageName, variableName);
-        ele.click();
+        var element = this.getElement(pageName, variableName);
+        element.click();
         var data = this.getTestdata(text);
         browser.wait(EC.elementToBeClickable(element(by.cssContainingText('mat-option', data))), 5000)
         return element(by.cssContainingText('mat-option', data)).click();
     },
 
     checkDropDown: function (pageName, variableName, text) {
-        var ele = this.getElement(pageName, variableName);
+        var element = this.getElement(pageName, variableName);
         var data = this.getTestdata(text);
-        return expect(ele.getText()).to.eventually.equal(data);
+        return expect(element.getText()).to.eventually.equal(data);
     },
 
 
@@ -113,41 +114,41 @@ module.exports = {
 
     //-----------------Checkbox-------------------------
 
-    setCheckbox: function (pageName, variableName, value) {
-        var x = this.getElement(pageName, variableName);
-        var checkbox1 = element(by.id(x));
-        var data = this.getTestdata(value);
-        var checkboxValue = element(by.xpath("(//*[@id='" + x + "'])//input"));
-        return checkboxValue.isSelected().then(function (attVal) {
-            if (data == 'checked' && attVal == false) {
-                checkbox1.click();
-                return expect(checkboxValue.isSelected()).to.eventually.equal(true);
-            } else if (data == 'unchecked' && attVal == true) {
-                checkbox1.click();
-                return expect(checkboxValue.isSelected()).to.eventually.equal(false);
-            }
-        });
-    },
+    // setCheckbox: function (pageName, variableName, value) {
+    //     var x = this.getElement(pageName, variableName);
+    //     var checkbox1 = element(by.id(x));
+    //     var data = this.getTestdata(value);
+    //     var checkboxValue = element(by.xpath("(//*[@id='" + x + "'])//input"));
+    //     return checkboxValue.isSelected().then(function (attVal) {
+    //         if (data == 'checked' && attVal == false) {
+    //             checkbox1.click();
+    //             return expect(checkboxValue.isSelected()).to.eventually.equal(true);
+    //         } else if (data == 'unchecked' && attVal == true) {
+    //             checkbox1.click();
+    //             return expect(checkboxValue.isSelected()).to.eventually.equal(false);
+    //         }
+    //     });
+    // },
 
-    checkCheckboxValue: function (pageName, variableName, expectedValue) {
-        var x = this.getElement(pageName, variableName);
-        var data = this.getTestdata(expectedValue);
-        var checkbox3 = element(by.xpath("(//*[@id='" + x + "'])//input"));
-        if (data == 'checked') {
-            return expect(checkbox3.isSelected()).to.eventually.equal(true);
-        } else if (data == 'unchecked') {
-            return expect(checkbox3.isSelected()).to.eventually.equal(false);
-        }
-    },
+    // checkCheckboxValue: function (pageName, variableName, expectedValue) {
+    //     var x = this.getElement(pageName, variableName);
+    //     var data = this.getTestdata(expectedValue);
+    //     var checkbox3 = element(by.xpath("(//*[@id='" + x + "'])//input"));
+    //     if (data == 'checked') {
+    //         return expect(checkbox3.isSelected()).to.eventually.equal(true);
+    //     } else if (data == 'unchecked') {
+    //         return expect(checkbox3.isSelected()).to.eventually.equal(false);
+    //     }
+    // },
 
     //------------Auto Complete field------------------
 
     setAutoCompleteField: function (pageName, variableName, text) {
         var EC = protractor.ExpectedConditions;
-        var ele = this.getElement(pageName, variableName);
+        var element = this.getElement(pageName, variableName);
         var data = this.getTestdata(text);
-        browser.wait(EC.elementToBeClickable(ele), 2000);
-        ele.click();
+        browser.wait(EC.elementToBeClickable(element), 2000);
+        element.click();
         browser.driver.switchTo().activeElement().clear();
         browser.driver.switchTo().activeElement().sendKeys(data);
         browser.wait(EC.elementToBeClickable(element(by.cssContainingText('mat-option', data))), 5000)
@@ -157,26 +158,26 @@ module.exports = {
 
     //-----------------Validation Message-------------
 
-    checkErrorMessage: function (pageName, variableName, errormsg) {
-        var x = this.getElement(pageName, variableName);
-        var msg = element(by.xpath("//*[@id='" + x + "']//mat-error")).getText();
-        return expect(msg).to.eventually.equal(errormsg);
-    },
+    // checkErrorMessage: function (pageName, variableName, errormsg) {
+    //     var x = this.getElement(pageName, variableName);
+    //     var msg = element(by.xpath("//*[@id='" + x + "']//mat-error")).getText();
+    //     return expect(msg).to.eventually.equal(errormsg);
+    // },
 
 
 
     //------------------Placeholder-------------
 
     checkPlaceholderText: function (pageName, variableName, text) {
-        var ele = this.getElement(pageName, variableName);
-        return expect(ele.getAttribute('placeholder')).to.eventually.equal(text);
+        var element = this.getElement(pageName, variableName);
+        return expect(element.getAttribute('placeholder')).to.eventually.equal(text);
     },
 
     //sorting dropdown check
     sortingCheck: function (pageName, variableName, callback) {
         var EC = protractor.ExpectedConditions;
-        var ele = this.getElement(pageName, variableName);
-        ele.click();
+        var element = this.getElement(pageName, variableName);
+        element.click();
         browser.wait(EC.elementToBeClickable(element(by.css('mat-option'))), 5000);
         element.all(by.css('mat-option-text')).getText().then(function (list) {
             var sorted = list.slice();
@@ -217,15 +218,14 @@ module.exports = {
     },
 
     getFieldAndSetValue: function (pageName, variableName, text) {
-        var x = this.getElement(pageName, variableName);
-        var ele = element(by.id(x));
-        return this.fieldType(ele).then((fieldType) => {
+        var element = this.getElement(pageName, variableName);
+        return this.fieldType(element).then((fieldType) => {
             if (fieldType == 'textbox') {
-                return this.setTextBox1(pageName, variableName, text);
+                return this.setTextBox(pageName, variableName, text);
             } else if (fieldType == 'dropdown') {
-                return this.setDropDown1(pageName, variableName, text);
+                return this.setDropDown(pageName, variableName, text);
             } else if (fieldType == 'checkbox') {
-                return this.setCheckbox1(pageName, variableName, text)
+                return this.setCheckbox(pageName, variableName, text)
             } else if (fieldType == 'autocomplete') {
                 return this.setAutoCompleteField(pageName, variableName, text)
             }
@@ -233,8 +233,8 @@ module.exports = {
     },
 
 
-    fieldType: function (ele) {
-        return ele.getAttribute('outerHTML').then(function (tag) {
+    fieldType: function (element) {
+        return element.getAttribute('outerHTML').then(function (tag) {
             var r;
             if (tag.startsWith('<input')) {
                 r = 'textbox';
@@ -263,17 +263,16 @@ module.exports = {
     },
 
     getFieldAndVerifyValue: function (pageName, variableName, text) {
-        var x = this.getElement(pageName, variableName);
-        var ele = element(by.id(x));
-        this.fieldType(ele).then((fieldType) => {
+        var element = this.getElement(pageName, variableName);
+        this.fieldType(element).then((fieldType) => {
             if (fieldType == 'textbox') {
-                this.checkTextBox1(pageName, variableName, text);
+                this.checkTextBox(pageName, variableName, text);
             } else if (fieldType == 'dropdown') {
-                this.checkDropDown1(pageName, variableName, text);
+                this.checkDropDown(pageName, variableName, text);
             } else if (fieldType == 'checkbox') {
-                this.checkCheckboxValue1(pageName, variableName, text)
+                this.checkCheckboxValue(pageName, variableName, text)
             } else if (fieldType == 'autocomplete') {
-                this.checkTextBox1(pageName, variableName, text);
+                this.checkTextBox(pageName, variableName, text);
             }
         });
     },
