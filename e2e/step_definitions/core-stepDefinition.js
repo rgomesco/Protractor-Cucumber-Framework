@@ -23,6 +23,10 @@ When(/^I click on element containing text "([^"]*)"$/, function (variableName) {
     return coreHelper.elementClickContainingText(variableName);
 });
 
+When(/^In "([^"]*)" page, I should see "([^"]*)"$/, function (pageName, variableName) {
+    return coreHelper.elementVisible(pageName, variableName);
+});
+
 
 //------------------Textbox-------------------
 

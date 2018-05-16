@@ -72,6 +72,11 @@ module.exports = {
         return ele.click();
     },
 
+    elementVisible: function (pageName, variableName) {
+        var ele = this.getElement(pageName, variableName);
+        return expect(ele.isDisplayed()).to.eventually.equal(true);
+    },
+
 
 
 
@@ -224,7 +229,6 @@ module.exports = {
         return browser.getAllWindowHandles().then((handles)=>{
             var ele = this.getElement(pageName, variableName);
             for (var i = 0; i < handles.length; i++) {
-                console.log(i);
                 browser.switchTo().window(handles[i]);   
                     if(ele.isPresent()===true){
                         break;

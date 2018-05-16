@@ -3,6 +3,7 @@ Feature: Mobile Handset
 @run
 Scenario: Navigation
 Given I navigate to snapdeal homepage
+Then In "home" page, I should see "Snapdeal_Logo"
 When In "home" page, I hover the mouse over "Mobile_Mega_Menu"
 And I click on element containing text "Samsung"
 And I click on element containing text "Samsung J7 NXT (16GB, Black)"
