@@ -198,9 +198,21 @@ module.exports = {
 
 
 
+    //actions:  Mouse hover
+    hoverElement:function(pageName, variableName){
+        var EC = protractor.ExpectedConditions;
+        var ele = this.getElement(pageName, variableName);
+        browser.wait(EC.elementToBeClickable(ele), 5000);
+        browser.actions().mouseMove(ele).perform();
+        browser.sleep(3000);
+       
+    },
 
-
-
+    verifyTitle:function(pageName, value){
+        var currentTitle=browser.getTitle();
+        var data = this.getTestdata(value);
+        return expect(currentTitle).to.eventually.equal(data);
+    },
 
     //functions to input data in multiple fields using table
     fillForm: function (pageName, table, callback) {

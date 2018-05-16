@@ -80,3 +80,12 @@ Then(/^In "([^"]*)" page, I check if the fields contain the following data$/, {t
     return coreHelper.verifyForm(pageName, table, callback);
 });
 
+//-----------------Move to element-------------
+Then(/^In "([^"]*)" page, I hover the mouse over "([^"]*)"$/, function(pageName, variableName){
+    return coreHelper.hoverElement(pageName, variableName);
+});
+
+//-----------------------------verify title of page---------------------------------
+Then(/^In "([^"]*)" page, The Title should be "([^"]*)"$/, function(pageName, value){
+    return coreHelper.verifyTitle(pageName, value);
+    });
