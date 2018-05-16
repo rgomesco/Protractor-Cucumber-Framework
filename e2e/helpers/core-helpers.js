@@ -220,8 +220,6 @@ module.exports = {
         return expect(currentTitle).to.eventually.equal(data);
     },
 
-
-
     switchToWindowContainingElement: function (variableName, pageName) {
         return browser.getAllWindowHandles().then((handles)=>{
             var ele = this.getElement(pageName, variableName);
@@ -234,6 +232,7 @@ module.exports = {
             }
         });
     },
+
     
 
 

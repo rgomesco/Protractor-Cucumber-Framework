@@ -94,8 +94,7 @@ Then(/^In "([^"]*)" page, The Title should be "([^"]*)"$/, function(pageName, va
     return coreHelper.verifyTitle(pageName, value);
     });
 
-
-    //-----------------------------Switch to window---------------------------------
+        //-----------------------------Switch to window---------------------------------
 Then(/^I switch to window containing "([^"]*)" element in "([^"]*)" page$/, {timeout : 60 * 1000}, function(variableName, pageName){
     return coreHelper.switchToWindowContainingElement(variableName, pageName);
     });
