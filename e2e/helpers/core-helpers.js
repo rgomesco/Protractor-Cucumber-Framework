@@ -21,10 +21,10 @@ module.exports = {
 
     // function to get test data from respective test data file
     getTestdata: function (text) {
-         // here we split the value passed in feature file separated by '_' (e.g. 'a_b_c_d')
-         var fields = text.split('_');
-         var field1 = fields[1];
-         var field2 = fields[2];
+        // here we split the value passed in feature file separated by '_' (e.g. 'a_b_c_d')
+        var fields = text.split('_');
+        var field1 = fields[1];
+        var field2 = fields[2];
         if (text.indexOf('TD_') > -1) {
             var field3 = fields[3];
             // here we get the testdata from testdata file
@@ -49,7 +49,7 @@ module.exports = {
                     break;
                 }
             }
-             return y;           
+            return y;
         });
     },
 
@@ -60,6 +60,14 @@ module.exports = {
     elementClick: function (pageName, variableName) {
         var EC = protractor.ExpectedConditions;
         var ele = this.getElement(pageName, variableName);
+        browser.wait(EC.elementToBeClickable(ele), 2000);
+        return ele.click();
+    },
+
+    elementClickContainingText: function (text) {
+        var EC = protractor.ExpectedConditions;
+        var data = this.getTestdata(text);
+        var ele = element(by.xpath("//*[contains(text(), '" + data + "')]"))
         browser.wait(EC.elementToBeClickable(ele), 2000);
         return ele.click();
     },
@@ -199,20 +207,39 @@ module.exports = {
 
 
     //actions:  Mouse hover
-    hoverElement:function(pageName, variableName){
+    hoverElement: function (pageName, variableName) {
         var EC = protractor.ExpectedConditions;
         var ele = this.getElement(pageName, variableName);
         browser.wait(EC.elementToBeClickable(ele), 5000);
-        browser.actions().mouseMove(ele).perform();
-        browser.sleep(3000);
-       
+        return browser.actions().mouseMove(ele).perform();
     },
 
-    verifyTitle:function(pageName, value){
-        var currentTitle=browser.getTitle();
+    verifyTitle: function (pageName, value) {
+        var currentTitle = browser.getTitle();
         var data = this.getTestdata(value);
         return expect(currentTitle).to.eventually.equal(data);
     },
+
+
+
+    switchToWindowContainingElement: function (variableName, pageName) {
+        return browser.getAllWindowHandles().then((handles)=>{
+            var ele = this.getElement(pageName, variableName);
+            for (var i = 0; i < handles.length; i++) {
+                console.log(i);
+                browser.switchTo().window(handles[i]);   
+                    if(ele.isPresent()===true){
+                        break;
+                    }
+            }
+        });
+    },
+    
+
+
+
+
+
 
     //functions to input data in multiple fields using table
     fillForm: function (pageName, table, callback) {

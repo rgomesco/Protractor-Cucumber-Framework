@@ -8,7 +8,7 @@ var coreHelper = require('./../helpers/core-helpers.js');
 
 // Set default cucumber timeout
 var {setDefaultTimeout} = require('cucumber');
-setDefaultTimeout(11 * 1000);
+setDefaultTimeout(60 * 1000);
 
 //-----------Common steps with POM and Testdata------------------------
 
@@ -17,6 +17,10 @@ setDefaultTimeout(11 * 1000);
 
 When(/^In "([^"]*)" page, I click "([^"]*)"$/, function (pageName, variableName) {
     return coreHelper.elementClick(pageName, variableName);
+});
+
+When(/^I click on element containing text "([^"]*)"$/, function (variableName) {
+    return coreHelper.elementClickContainingText(variableName);
 });
 
 
@@ -88,4 +92,10 @@ Then(/^In "([^"]*)" page, I hover the mouse over "([^"]*)"$/, function(pageName,
 //-----------------------------verify title of page---------------------------------
 Then(/^In "([^"]*)" page, The Title should be "([^"]*)"$/, function(pageName, value){
     return coreHelper.verifyTitle(pageName, value);
+    });
+
+
+    //-----------------------------Switch to window---------------------------------
+Then(/^I switch to window containing "([^"]*)" element in "([^"]*)" page$/, {timeout : 60 * 1000}, function(variableName, pageName){
+    return coreHelper.switchToWindowContainingElement(variableName, pageName);
     });

@@ -1,7 +1,7 @@
 Feature: Scenarios for edit and delete Contact Information in profile screen
 
 
-@run
+
 Scenario: Navigation
 Given I launch
 And In "profile" page, I set the "Search_Box" text box to "troytrd"

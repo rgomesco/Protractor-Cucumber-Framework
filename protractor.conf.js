@@ -41,6 +41,6 @@ exports.config = {
         browser.manage().window().maximize(); 
         browser.ignoreSynchronization = true;
         browser.waitForAngular();
-        browser.manage().timeouts().implicitlyWait(10000);
+        browser.manage().timeouts().implicitlyWait(5000);
     }
 };

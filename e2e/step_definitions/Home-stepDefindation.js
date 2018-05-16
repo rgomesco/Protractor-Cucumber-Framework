@@ -10,3 +10,9 @@ Then(/^I navigate to snapdeal homepage$/,{timeout:60 * 1000}, function(){
    return browser.get('https://www.snapdeal.com/')
    .then(browser.getCurrentUrl());
 });
+
+Then(/^I wait$/,{timeout:60 * 1000}, function(){
+    return browser.sleep(5000);
+ });
+
+ 
