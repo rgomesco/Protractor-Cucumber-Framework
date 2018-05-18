@@ -208,11 +208,21 @@ module.exports = {
        
     },
 
-    verifyTitle:function(pageName, value){
+    //verify title of webpage
+    verifyTitle:function(value){
         var currentTitle=browser.getTitle();
         var data = this.getTestdata(value);
         return expect(currentTitle).to.eventually.equal(data);
     },
+
+    //verify text in element
+    verifyText:function(pageName, variableName, value){
+        var element= this.getElement(pageName, variableName);
+        var elementText=element.getText();
+        var data = this.getTestdata(value);
+        return expect(elementText).to.eventually.equal(data);
+    },
+    
 
     //functions to input data in multiple fields using table
     fillForm: function (pageName, table, callback) {

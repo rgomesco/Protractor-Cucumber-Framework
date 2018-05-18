@@ -86,6 +86,11 @@ Then(/^In "([^"]*)" page, I hover the mouse over "([^"]*)"$/, function(pageName,
 });
 
 //-----------------------------verify title of page---------------------------------
-Then(/^In "([^"]*)" page, The Title should be "([^"]*)"$/, function(pageName, value){
-    return coreHelper.verifyTitle(pageName, value);
+Then(/^The title of the page should be "([^"]*)"$/, function(value){
+    return coreHelper.verifyTitle(value);
     });
+
+    //----------------------------verify text of element---------------------------------------------
+    Then(/^In "([^"]*)" page, Text of the "([^"]*)" should be "([^"]*)"$/,function(pageName, variableName, value){
+        return coreHelper.verifyText(pageName, variableName, value);
+    })
