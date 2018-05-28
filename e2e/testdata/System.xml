@@ -1,0 +1,1478 @@
+<SystemRoot>
+    <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL1</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>6000</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF2</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL3</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL4</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL5</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL6</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG></SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>211.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2X9L</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>12</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+	  <InventoryModelBO>
+            <CONFIG_ID>28073C4D3A654E8D8A37BB26BA6B5445</CONFIG_ID>
+            <BUNDLE_CODE>DFO-G3S93H2XLF</BUNDLE_CODE>
+            <SVCTAG>G3S93H2XL89</SVCTAG>
+            <COUNTRY>BRL</COUNTRY>
+            <CONDITION>Refurbished</CONDITION>
+            <SEGMENT>DFH</SEGMENT>
+            <LOB>XPS Laptops</LOB>
+			<SERIES></SERIES>
+            <FAMILY_NAME>Inspiron 7560</FAMILY_NAME>
+            <BASE>XPS 13 (9365) 2-in-1 Premium Laptop, 7th Generation Intel Core i7-7Y75 Processor (4M cache, up to 3.6 GHz)</BASE>
+            <PROCESSOR>Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</PROCESSOR>
+        <InventoryMemoryModelBO>
+            <MEMORY>20 GB DDR4 2133 MHz</MEMORY>
+            <MEMORY_SIZE>20</MEMORY_SIZE>
+            <MEMORY_TYPE>GB</MEMORY_TYPE>
+            <MEMORY_MODEL>DDR4</MEMORY_MODEL>
+            <MEMORY_SPEED>2133</MEMORY_SPEED>
+            <MEMORY_UNIT>MHz</MEMORY_UNIT>
+        </InventoryMemoryModelBO>
+        <InventoryHardDiskModelBO>
+            <HARD_DRIVE>16 GB</HARD_DRIVE>
+            <HARD_DRIVE_CAPACITY>16</HARD_DRIVE_CAPACITY>
+            <HARD_DRIVE_CAP_UNIT>GB</HARD_DRIVE_CAP_UNIT>
+        </InventoryHardDiskModelBO>
+        <InventoryDisplayModelBO>
+            <LCD>13.3 3200x1800 touch</LCD>
+            <DISPLAY_SIZE>11.6</DISPLAY_SIZE>
+            <DISPLAY_TYPE>Touch</DISPLAY_TYPE>
+            <DISPLAY_RESOLUTION>1366 x 768</DISPLAY_RESOLUTION>
+        </InventoryDisplayModelBO>
+        <InventoryGraphicsModelBO>
+            <GRAPHICS>NVIDIA 6 GB GDDR9</GRAPHICS>
+            <GRAPHICS_VENDOR>INTEL</GRAPHICS_VENDOR>
+            <GRAPHICS_MEMORY_SIZE>1</GRAPHICS_MEMORY_SIZE>
+            <GRAPHICS_MEMORY_SIZE_UNIT>NA</GRAPHICS_MEMORY_SIZE_UNIT>
+            <GRAPHICS_MEMORY_TYPE>NA</GRAPHICS_MEMORY_TYPE>
+        </InventoryGraphicsModelBO>
+        <InventoryBatteryModelBO>
+            <BATTERY>42 3</BATTERY>
+            <BATTERY_SIZE>42</BATTERY_SIZE>
+            <BATTERY_CELL_COUNT>3</BATTERY_CELL_COUNT>
+        </InventoryBatteryModelBO>
+        <InventorySoftwareBO>
+            <SOFTWARE>Windows 10 Pro (64bit) English</SOFTWARE>
+            <OPERATING_SYSTEM_NAME>WINDOWS pro</OPERATING_SYSTEM_NAME>
+        </InventorySoftwareBO>
+        <SSD>yes</SSD>
+        <OPTICAL_DRIVE></OPTICAL_DRIVE>
+        <NETWORK>Intel Dual Band Wireless AC 8265 (802.11ac) 2x2 + Bluetooth</NETWORK>      
+        <ADAPTER>65 Watt AC Adapter</ADAPTER>
+        <COLOR>Black - LCD Back Cover (Non-Touch Screen)</COLOR>
+        <MOUSE></MOUSE>
+        <KEYBOARD>Dell KB216 Wired Keyboard Black</KEYBOARD>
+        <SOUND></SOUND>
+        <DOORS></DOORS>
+        <DELL_WARRANTY></DELL_WARRANTY>
+        <WARRANTY_SKU></WARRANTY_SKU>
+        <WARRANTY_DETAILS></WARRANTY_DETAILS>
+        <WARRANTY_PRICE>0.0</WARRANTY_PRICE>
+        <ARB_AGE></ARB_AGE>
+        <TOTAL_AGE></TOTAL_AGE>
+        <ORIGINAL_PRICE>360.00</ORIGINAL_PRICE>
+		<PRICE>200.00</PRICE>
+        <CURRENCY>$</CURRENCY>
+        <QUANTITY>1</QUANTITY>
+        <MERCHANDISING_PRICE>0.0</MERCHANDISING_PRICE>
+        <FPC_COST>0.0</FPC_COST>
+        <TARGET100REC_PRICE_BRL></TARGET100REC_PRICE_BRL>
+        <TARGET100REC_PRICE_BRL_CC></TARGET100REC_PRICE_BRL_CC>
+        <TARGET100REC_PRICE_BRL_BNDS></TARGET100REC_PRICE_BRL_BNDS>
+        <TARGET100REC_PRICE_BRL_WAR></TARGET100REC_PRICE_BRL_WAR>
+        <TARGET100REC_PRICE_BRL_CC_WAR></TARGET100REC_PRICE_BRL_CC_WAR>
+        <TARGET100REC_PRICE_BRL_BNDS_WAR></TARGET100REC_PRICE_BRL_BNDS_WAR>
+        <PROCESSOR_BRAND>Intel Celeron</PROCESSOR_BRAND>
+        <PROCESSOR_TYPE>NA</PROCESSOR_TYPE>
+        <PROCESSOR_SPEED>2.48</PROCESSOR_SPEED>
+        <PROCESSOR_SPEED_UNIT>GHz</PROCESSOR_SPEED_UNIT>
+		<PRODUCT_ID>125896</PRODUCT_ID>
+        <PRODUCT_IMAGE_URL>http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg</PRODUCT_IMAGE_URL>
+	    <COMMENTS></COMMENTS>
+    </InventoryModelBO>
+</SystemRoot>

@@ -23,10 +23,13 @@ When(/^I click on element containing text "([^"]*)"$/, function (variableName) {
     return coreHelper.elementClickContainingText(variableName);
 });
 
-When(/^In "([^"]*)" page, I should see "([^"]*)"$/, function (pageName, variableName) {
+When(/^In "([^"]*)" page, I should see "([^"]*)" element$/, function (pageName, variableName) {
     return coreHelper.elementVisible(pageName, variableName);
 });
 
+Then(/^I should see element containing "([^"]*)" text$/, function (variableName) {
+    return coreHelper.elementContainingTextVisible(variableName);
+});
 
 //------------------Textbox-------------------
 
@@ -88,7 +91,7 @@ Then(/^In "([^"]*)" page, I check if the fields contain the following data$/, {t
     return coreHelper.verifyForm(pageName, table, callback);
 });
 
-//-----------------Move to element-------------
+//-----------------Hover mouse over an element-------------
 Then(/^In "([^"]*)" page, I hover the mouse over "([^"]*)"$/, function(pageName, variableName){
     return coreHelper.hoverElement(pageName, variableName);
 });
@@ -98,7 +101,13 @@ Then(/^In "([^"]*)" page, The Title should be "([^"]*)"$/, function(pageName, va
     return coreHelper.verifyTitle(pageName, value);
     });
 
-        //-----------------------------Switch to window---------------------------------
+//-----------------------------Switch to window---------------------------------
 Then(/^I switch to window containing "([^"]*)" element in "([^"]*)" page$/, {timeout : 60 * 1000}, function(variableName, pageName){
     return coreHelper.switchToWindowContainingElement(variableName, pageName);
+    });
+
+
+//----------------------file upload---------------
+Then(/^In "([^"]*)" page, I upload "([^"]*)" in "([^"]*)" element$/, function(pageName, fileName, variableName){
+    return coreHelper.uploadFile(pageName, fileName, variableName);
     });

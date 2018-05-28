@@ -6,6 +6,7 @@ chai.use(chaiAsPromised);
 var expect = chai.use(chaiAsPromised).expect
 
 var Excel = require('exceljs');
+var path = require('path');
 
 
 module.exports = {
@@ -55,6 +56,32 @@ module.exports = {
 
 
 
+    setExcelData: function (sheetName, keyword, value, callback) {
+        console.log("inside set function");
+        var workbook = new Excel.Workbook();
+        workbook.xlsx.readFile('./e2e/testdata/data.xlsx').then(function () {
+            var worksheet = workbook.getWorksheet(sheetName);
+            var y = worksheet.getColumn(1).values;
+            for (var i = 1; i <= y.length; i++) {
+                var q = worksheet.getRow(i).values;
+                if (q[1] == keyword) {
+                    console.log("inside if");
+                    worksheet.getRow(i).getCell(2).value = 123;
+                    worksheet.getRow(i).commit();
+                    workbook.xlsx.writeFile('./e2e/testdata/data.xlsx');
+                    // console.log("value added = "+ worksheet.getRow(i).getCell(2).value);
+                    break;
+                }
+
+            }
+        });
+        callback();
+    },
+
+
+
+
+
     //------------------Element-----------------
 
     elementClick: function (pageName, variableName) {
@@ -74,6 +101,12 @@ module.exports = {
 
     elementVisible: function (pageName, variableName) {
         var ele = this.getElement(pageName, variableName);
+        return expect(ele.isDisplayed()).to.eventually.equal(true);
+    },
+
+    elementContainingTextVisible: function (text) {
+        var data = this.getTestdata(text);
+        var ele = element(by.xpath("//*[contains(text(), '" + data + "')]"))
         return expect(ele.isDisplayed()).to.eventually.equal(true);
     },
 
@@ -106,13 +139,15 @@ module.exports = {
 
     setDropDown: function (pageName, variableName, text) {
         // we need to provide sleep because some dropdown are fetched from backend and take time to load.
-        // browser.sleep(2000);
+        browser.sleep(2000);
         var EC = protractor.ExpectedConditions;
         var ele = this.getElement(pageName, variableName);
         ele.click();
+        // browser.sleep(1000);
         var data = this.getTestdata(text);
-        browser.wait(EC.elementToBeClickable(element(by.cssContainingText('mat-option', data))), 5000)
-        return element(by.cssContainingText('mat-option', data)).click();
+        browser.wait(EC.elementToBeClickable(element(by.cssContainingText('option', data))), 5000)
+        // browser.sleep(1000);
+        return element(by.cssContainingText('option', data)).click();
     },
 
     checkDropDown: function (pageName, variableName, text) {
@@ -226,18 +261,25 @@ module.exports = {
     },
 
     switchToWindowContainingElement: function (variableName, pageName) {
-        return browser.getAllWindowHandles().then((handles)=>{
+        return browser.getAllWindowHandles().then((handles) => {
             var ele = this.getElement(pageName, variableName);
             for (var i = 0; i < handles.length; i++) {
-                browser.switchTo().window(handles[i]);   
-                    if(ele.isPresent()===true){
-                        break;
-                    }
+                browser.switchTo().window(handles[i]);
+                if (ele.isPresent() === true) {
+                    break;
+                }
             }
         });
     },
 
-    
+
+    //----------------file upload-------------------
+    uploadFile: function (pageName, fileName, variableName) {
+        var ele = this.getElement(pageName, variableName);
+        var data = this.getTestdata(fileName);
+        var absolutePath = path.resolve(__dirname, data);
+        return ele.sendKeys(absolutePath);
+    },
 
 
 
@@ -259,15 +301,14 @@ module.exports = {
     },
 
     getFieldAndSetValue: function (pageName, variableName, text) {
-        var x = this.getElement(pageName, variableName);
-        var ele = element(by.id(x));
+        var ele = this.getElement(pageName, variableName);
         return this.fieldType(ele).then((fieldType) => {
             if (fieldType == 'textbox') {
-                return this.setTextBox1(pageName, variableName, text);
+                return this.setTextBox(pageName, variableName, text);
             } else if (fieldType == 'dropdown') {
-                return this.setDropDown1(pageName, variableName, text);
+                return this.setDropDown(pageName, variableName, text);
             } else if (fieldType == 'checkbox') {
-                return this.setCheckbox1(pageName, variableName, text)
+                return this.setCheckbox(pageName, variableName, text)
             } else if (fieldType == 'autocomplete') {
                 return this.setAutoCompleteField(pageName, variableName, text)
             }
@@ -280,9 +321,11 @@ module.exports = {
             var r;
             if (tag.startsWith('<input')) {
                 r = 'textbox';
-            } else if (tag.startsWith('<mat-select')) {
+            } else if (tag.startsWith('<textarea')) {
+                r = 'textbox';
+            } else if (tag.startsWith('<select')) {
                 r = 'dropdown';
-            } else if (tag.startsWith('<mat-checkbox')) {
+            } else if (tag.startsWith('<checkbox')) {
                 r = 'checkbox';
             } else if (tag.startsWith('<app-autocomplete')) {
                 r = 'autocomplete';
@@ -305,8 +348,7 @@ module.exports = {
     },
 
     getFieldAndVerifyValue: function (pageName, variableName, text) {
-        var x = this.getElement(pageName, variableName);
-        var ele = element(by.id(x));
+        var ele = this.getElement(pageName, variableName);
         this.fieldType(ele).then((fieldType) => {
             if (fieldType == 'textbox') {
                 this.checkTextBox1(pageName, variableName, text);
