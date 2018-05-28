@@ -4,4 +4,5 @@
     ],
     "cucumberautocomplete.syncfeatures": "e2e/features/*.feature",
     "cucumberautocomplete.strictGherkinCompletion": false
+
 }
