@@ -9,7 +9,13 @@ exports.config = {
     ignoreUncaughtExceptions: true,
     multiCapabilities: [
         {
-            'browserName': 'chrome'
+            'browserName': 'chrome',
+            'chromeOptions': {
+                'mobileEmulation': {
+                    'deviceName': 'iPhone X',
+                },
+            },
+
         }
     ],
     framework: 'custom',
@@ -21,8 +27,8 @@ exports.config = {
     cucumberOpts: {
         require: [
             './e2e/step_definitions/*.js',
-             ],
-        tags: ['@run'],
+        ],
+        // tags: ['@run'],
         format: 'json:e2e/results/results.json',
         profile: false,
         'no-source': true,
@@ -37,8 +43,8 @@ exports.config = {
             openReportInBrowser: true
         }
     }],
-    onPrepare: function() {
-        browser.manage().window().maximize(); 
+    onPrepare: function () {
+        browser.manage().window().maximize();
         browser.ignoreSynchronization = true;
         browser.waitForAngular();
         browser.manage().timeouts().implicitlyWait(5000);
