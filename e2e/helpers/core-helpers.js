@@ -111,8 +111,8 @@ module.exports = {
         var ele = this.getElement(pageName, variableName);
         ele.click();
         var data = this.getTestdata(text);
-        browser.wait(EC.elementToBeClickable(element(by.cssContainingText('mat-option', data))), 5000)
-        return element(by.cssContainingText('mat-option', data)).click();
+        browser.wait(EC.elementToBeClickable(element(by.cssContainingText('option', data))), 5000)
+        return element(by.cssContainingText('option', data)).click();
     },
 
     checkDropDown: function (pageName, variableName, text) {
@@ -127,17 +127,16 @@ module.exports = {
     //-----------------Checkbox-------------------------
 
     setCheckbox: function (pageName, variableName, value) {
-        var x = this.getElement(pageName, variableName);
-        var checkbox1 = element(by.id(x));
+        var checkbox1 = this.getElement(pageName, variableName);
         var data = this.getTestdata(value);
-        var checkboxValue = element(by.xpath("(//*[@id='" + x + "'])//input"));
-        return checkboxValue.isSelected().then(function (attVal) {
+        // var checkboxValue = element(by.xpath("(//*[@id='" + x + "'])//input"));
+        return checkbox1.isSelected().then(function (attVal) {
             if (data == 'checked' && attVal == false) {
                 checkbox1.click();
-                return expect(checkboxValue.isSelected()).to.eventually.equal(true);
+                return expect(checkbox1.isSelected()).to.eventually.equal(true);
             } else if (data == 'unchecked' && attVal == true) {
                 checkbox1.click();
-                return expect(checkboxValue.isSelected()).to.eventually.equal(false);
+                return expect(checkbox1.isSelected()).to.eventually.equal(false);
             }
         });
     },
@@ -215,7 +214,7 @@ module.exports = {
     hoverElement: function (pageName, variableName) {
         var EC = protractor.ExpectedConditions;
         var ele = this.getElement(pageName, variableName);
-        browser.wait(EC.elementToBeClickable(ele), 5000);
+        browser.wait(EC.elementToBeClickable(ele), 6000);
         return browser.actions().mouseMove(ele).perform();
     },
 
@@ -229,12 +228,26 @@ module.exports = {
     //verify text in element
     verifyText:function(pageName, variableName, value){
         var element= this.getElement(pageName, variableName);
-        var elementText=element.getText();
+        // var elementText=element.getText();
         var data = this.getTestdata(value);
-        return expect(elementText).to.eventually.equal(data);
+        return expect(element.getAttribute("innerText")).to.eventually.equal(data);
     },
     
+//--------verify title of element--------------------------------------------
+verifyElementTitle:function(pageName, variableName, value){
+    var element= this.getElement(pageName, variableName);
+    // var elementText=element.getText();
+    var data = this.getTestdata(value);
+    return expect(element.getAttribute("Title")).to.eventually.equal(data);
+},
 
+
+//-------scrollto element--------------------------------------
+moveToElement:function(pageName, variableName){
+    var element=this.getElement(pageName, variableName);
+    return browser.actions().mouseMove(element).perform();
+},
+//----------------------switch to window ------------------------
     switchToWindowContainingElement: function (variableName, pageName) {
         return browser.getAllWindowHandles().then((handles)=>{
             var ele = this.getElement(pageName, variableName);
@@ -247,8 +260,7 @@ module.exports = {
         });
     },
 
-    
-
+   
 
 
 
@@ -330,6 +342,37 @@ module.exports = {
         });
     },
 
+    priceSorting:function(pageName, variableName, condition, callback){
+        var prices=this.getElement(pageName, variableName);
+        prices.getText().then(function(list){
+            //var list1=list.toString();
+           // var splitPrice= list1.split("-","1");
+            //console.log(list);
+            var slicedPrice=list.slice();
+            slicedPrice.sort();
+            var x=true;
+           // console.log(slicedPrice);
+            for (var i = 0; i < list.length; i++) {
+                if (slicedPrice[i] != list[i]) {
+                    console.log(slicedPrice[i]);
+                    console.log(list[i]);
+                    x = false;
+                    break;
+                }
+            }
+            expect(x).equals(true);
+            callback();
+
+        });
+    },
+
+    pressTab: function(pageName,variableName){
+        var ele = this.getElement(pageName, variableName)
+        ele.click();
+        
+var desiredOption = element.all(by.tagName('option')).get(2);
+         return desiredOption.click();
+    },
 
 
 

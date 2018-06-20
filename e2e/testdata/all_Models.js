@@ -3,13 +3,17 @@ module.exports = {
 
 
   HomeData: {
-    "Title": "Online Shopping Site in India - Shop for Electronics, Mobile, Men & Women Clothing, Home - Snapdeal",
+    "Title": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+    "pincodeMessage":"Delivery options may vary for different locations",
   
   },
   PDPData:{
-    "Title":"Moto E4 Plus (32GB, 3GB RAM) - with 5000 mAh battery Mobile Phones Online at Low Prices | Snapdeal India",
-    "MobileGold" : "Gold",
-    "MobileGrey" : "Grey",
+    "Title":"Moto E4 Plus (Iron Gray, 32GB): Amazon.in: Electronics",
+    "MobileGold" : "Click to select Fine Gold",
+    "MobileGrey" : "Click to select Iron Grey",
     "Pincode":"400010"
-  }
+  }, 
+  List:{
+Stars:4,
+  },
 }

@@ -1,3 +1,5 @@
+
+
 // features/step_definitions/stepDefinitions
 var {Given, When, Then} = require('cucumber');
 var chai = require('chai');
@@ -101,9 +103,23 @@ Then(/^The title of the page should be "([^"]*)"$/, function(value){
     //----------------------------verify text of element---------------------------------------------
     Then(/^In "([^"]*)" page, Text of the "([^"]*)" should be "([^"]*)"$/,function(pageName, variableName, value){
         return coreHelper.verifyText(pageName, variableName, value);
+    });
+    //-----------------------------Verify titleof element---------------------------------------------------
+    Then(/^In "([^"]*)" page, Title of the "([^"]*)" should be "([^"]*)"$/,function(pageName, variableName, value){
+        return coreHelper.verifyElementTitle(pageName, variableName, value);
     })
 
         //-----------------------------Switch to window---------------------------------
 Then(/^I switch to window containing "([^"]*)" element in "([^"]*)" page$/, {timeout : 60 * 1000}, function(variableName, pageName){
     return coreHelper.switchToWindowContainingElement(variableName, pageName);
     });
+
+    Then(/^In "([^"]*)" page, I scroll the page till "([^"]*)"$/, {timeout : 60 * 1000}, function(pageName,variableName){
+        return coreHelper.moveToElement(pageName,variableName);
+        });
+
+        //-------------------price sorting check---------------------------------
+        Then(/^In "([^"]*)" page, The "([^"]*)" should be sorted "([^"]*)"$/, function(pageName,variableName, condition, callback){
+            return coreHelper.priceSorting(pageName,variableName, condition, callback);
+            });
+    
