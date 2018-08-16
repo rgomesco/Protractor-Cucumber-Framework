@@ -7,9 +7,12 @@ exports.config = {
     allScriptsTimeout: 15 * 1000,
     directConnect: false,
     ignoreUncaughtExceptions: true,
+
+    seleniumAddress: 'http://localhost:4444/wd/hub',
+    
     multiCapabilities: [
         {
-            'browserName': 'chrome'
+            'browserName': 'internet explorer'
         }
     ],
     framework: 'custom',

@@ -3,16 +3,12 @@ Feature: outlet feature
 
 Scenario: Scenario name
 Given I launch "outlet" page
-And I wait
-And I wait
-And I wait
+And I wait for "15" seconds
 And In "home" page, I click "Laptops_Tablets"
-And I wait
 And I refresh the page
-And I wait
 
 And In "home" page, I click "Save_For_Later_Button"
-And I wait
+And I wait for "2" seconds
 And In "home" page, I click "Send_Request_Button"
 When In "home" page, I fill the fields with the following data
 |field|content|
@@ -30,7 +26,6 @@ And I store the enquiry number in test data
 
 Scenario: check enq in admin
 When I launch "admin" page
-And I wait
 When I launch "admin" page
 And In "login" page, I fill the fields with the following data
 |field|content|
@@ -44,5 +39,3 @@ And In "login" page, I fill the fields with the following data
 And In "login" page, I click "Login_Button"
 And In "admin" page, I click "Dashboard"
 And In "admin" page, I click "Enquiry"
-And I wait
-And I wait

@@ -11,8 +11,8 @@ Then(/^I navigate to snapdeal homepage$/,{timeout:60 * 1000}, function(){
    .then(browser.getCurrentUrl());
 });
 
-Then(/^I wait$/,{timeout:60 * 1000}, function(){
-    return browser.sleep(5000);
+Then(/^I wait for "([^"]*)" seconds$/,{timeout:60 * 1000}, function(time){
+    return browser.sleep(time+"000");
  });
 
  

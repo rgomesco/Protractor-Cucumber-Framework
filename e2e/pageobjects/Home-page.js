@@ -11,7 +11,8 @@ module.exports = {
         Laptops_Tablets: element(by.xpath("//a[contains(text(), 'Dell Outlet for Home')]/ancestor::div[@class='more-info-tab clearfix']/following-sibling::div//h3/span[contains(text(), 'Laptops & Tablets')]")),
         Monitors: element(by.xpath("//a[contains(text(), 'Dell Outlet for Home')]/ancestor::div[@class='more-info-tab clearfix']/following-sibling::div//h3/span[contains(text(), 'Monitors')]")),
         Saved_Item: element(by.id('linkSavedItems')),
-
+        Uploaded_Product: element(by.xpath("//div[@class='fl-config-header']/h4/a[contains(text(), 'TGIF')]")),
+//*[@id="configurations"]/div/div[2]/div[2]/div[1]/h4/a
         Save_For_Later_Button: element(by.xpath("//button/*[contains(text(), 'Save For Later')]")),
         Quantity: element(by.id('QuantityVal_1')),
         Send_Request_Button: element(by.xpath("//button[contains(text(), 'Send Request')]")),
